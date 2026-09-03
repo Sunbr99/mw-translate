@@ -1,0 +1,35 @@
+{
+  "name": "MW Translate - Retro-Future Language & Code Terminal",
+  "short_name": "MW Translate",
+  "description": "Advanced translation and code inspection tool with offline support",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1a1a",
+  "theme_color": "#d4af37",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect fill='%231a1a1a' width='192' height='192'/><circle cx='96' cy='96' r='70' fill='%23d4af37'/><text x='96' y='110' font-size='80' font-weight='bold' text-anchor='middle' fill='%231a1a1a' font-family='monospace'>MW</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect fill='%231a1a1a' width='512' height='512'/><circle cx='256' cy='256' r='200' fill='%23d4af37'/><text x='256' y='290' font-size='200' font-weight='bold' text-anchor='middle' fill='%231a1a1a' font-family='monospace'>MW</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "screenshots": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 540 720'><rect fill='%231a1a1a' width='540' height='720'/><rect fill='%23d4af37' width='540' height='60'/><text x='270' y='40' font-size='24' font-weight='bold' text-anchor='middle' fill='%231a1a1a' font-family='monospace'>MW TRANSLATE</text></svg>",
+      "sizes": "540x720",
+      "type": "image/svg+xml",
+      "form_factor": "narrow"
+    }
+  ],
+  "prefer_related_applications": false
+}
