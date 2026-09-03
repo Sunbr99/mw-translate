@@ -1,0 +1,20 @@
+{
+  "appId": "com.mwtranslate.app",
+  "appName": "MW Translate",
+  "webDir": ".",
+  "server": {
+    "androidScheme": "https"
+  },
+  "ios": {
+    "contentInsetAdjustmentBehavior": "automatic"
+  },
+  "android": {
+    "allowMixedContent": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}
