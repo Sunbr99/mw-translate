@@ -1,0 +1,51 @@
+{
+  "name": "mw-translate",
+  "version": "1.0.0",
+  "description": "MW Translate - Retro-future language & code terminal PWA",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -c-1 -o -p 8080",
+    "dev": "npx http-server -c-1 -p 8080",
+    "build": "echo 'PWA ready for deployment'",
+    "install-capacitor": "npm install @capacitor/core @capacitor/cli @capacitor/android",
+    "capacitor-init": "npx cap init mw-translate 'MW Translate'",
+    "capacitor-add-android": "npx cap add android",
+    "capacitor-build": "npx cap build android",
+    "capacitor-open": "npx cap open android",
+    "capacitor-sync": "npx cap sync",
+    "prebuild-apk": "npm run install-capacitor && npm run capacitor-sync",
+    "build-apk": "cd android && ./gradlew assembleRelease",
+    "build-apk-debug": "cd android && ./gradlew assembleDebug"
+  },
+  "keywords": [
+    "translate",
+    "translation",
+    "code",
+    "syntax",
+    "analysis",
+    "PWA",
+    "offline"
+  ],
+  "author": "MW Translate Team",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/core": "^5.7.0",
+    "@capacitor/cli": "^5.7.0",
+    "@capacitor/android": "^5.7.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
