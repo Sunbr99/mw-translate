@@ -8,11 +8,11 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
@@ -21,5 +21,12 @@ jobs:
 
     - name: Install dependencies
       run: npm install
-    - name: Build project
-      run: npm run build --if-present
+
+    - name: Install Capacitor
+      run: npm run install-capacitor
+
+    - name: Sync Capacitor
+      run: npm run capacitor-sync
+
+    - name: Build Android APK
+      run: npm run build-apk
