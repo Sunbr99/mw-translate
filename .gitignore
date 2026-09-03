@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build files
+dist/
+build/
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+local.properties
+
+# Android Studio
+.idea/
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Android
+android/app/debug/
+android/app/release/
+android/build/
+
+# IDE
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+.env
+.env.local
+
+# Capacitor
+.capacitor/
+capacitor/
+
+# OS
+Thumbs.db
+.DS_Store
